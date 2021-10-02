@@ -31,7 +31,7 @@ The Kotlin assignment has one component:
 ###
 ###
 ###
-### Q2 = is there any Race Conditions in code
+### Q2 = is there any Race Conditions in the code
 ###
 ###
 ###
