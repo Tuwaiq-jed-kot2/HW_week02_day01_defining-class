@@ -80,13 +80,26 @@ class Student(name: String?, age: Int?, GPA: Double?) {
 
 //Part 2
 
-// Q1 = what dose Race Conditions mean
+//// Q1 = what dose Race Conditions mean
 
-//// It happens when a state gets modified at the same time (simultaneously) by two or more elements.
+// It happens when a state gets modified at the same time (simultaneously) by two or more elements.
 
-// Q2 = is there any Race Conditions in the code
+//// Q2 = is there any Race Conditions in the code
 
+// Yes, In the <<println(weapon.name)>>
 
+//// Q3 = what's the best way to solve the compiling error in the code using scopeFunction
 
-// Q3 = what's the best way to solve the compiling error in the code using scopeFunction
-
+//class Weapon(val name: String)
+//class Player {
+//    var weapon: Weapon? = Weapon("Ebony Kris")
+//    fun printWeaponName() {
+//        weapon?.let {
+//            println(it.name)
+//        }
+//    }
+//}
+//
+//fun main() {
+//    Player().printWeaponName()
+//}
