@@ -38,7 +38,7 @@ The Kotlin assignment has one component:
 ### Q3 = what's the best way to solve the compiling error in the code using scopeFunction
 ### using let function scope like
 ### fun printWeaponName() {
-### weapon?.let { println(weapon.name) }
+### weapon?.let { println(it) }
 ### }
 
 
