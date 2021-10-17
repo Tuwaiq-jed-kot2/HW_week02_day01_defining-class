@@ -28,14 +28,14 @@ The Kotlin assignment has one component:
 > ##### }
 
 ### Q1 = what dose Race Conditions mean
-###
+   race condition is when two or more parts of your program try to change the same variable simultaneously which will cause unpredicted results
 ###
 ###
 ### Q2 = is there any Race Conditions in the code
-###
+   yes in the weapon variable in the println function
 ###
 ###
 ### Q3 = what's the best way to solve the compiling error in the code using scopeFunction
-###
+   also, because it is used as a local variable which will not be affected by other parts 
 ###
 ###
