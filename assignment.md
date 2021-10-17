@@ -33,9 +33,9 @@ The Kotlin assignment has one component:
 ###
 ### Q2 = is there any Race Conditions in the code
 ###
-###
+###yes there is two process of print at the same time.
 ###
 ### Q3 = what's the best way to solve the compiling error in the code using scopeFunction
 ###
-###
+###also.
 ###
