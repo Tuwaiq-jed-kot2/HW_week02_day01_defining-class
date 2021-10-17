@@ -2,39 +2,17 @@
 //  write a kotlin program with student class that has three proprty "name" and "age" and "GPA" //
 //  and give the student abilty to (speake hint:use print ) and the abilty to add two numbers //
 
-class stuDent(name: String = "Rakan") {
-    var name = name
-        set(value) {
-            field = value
-        }
-
-    var age = 25
-        set(value) {
-            field = value
-        }
-    var gpa = 3.57
-        set(value) {
-            field = value
-        }
-
-    fun speak(): String {
-        return "Hi my name is $name"
+data class StuDent(var name:String = "Rakan",var age:Int = 25,var gpa:Double=3.75){
+    fun speak():String{
+        return "Hi my name is $name , my age is $age my gpa is $gpa"
     }
-
-
-    override fun toString(): String = "Hi my name is $name, i'm $age years old, my GPA is $gpa"
-
 }
 
-fun main() {
-
-
-    val student = stuDent()
-    println(student.speak())
-    val std2 = stuDent("ahmed")
-    std2.age+=2
-    println(std2.toString())
-
+fun main(){
+    val std1 = StuDent()
+    println(std1.speak())
+    val std2 = StuDent("ahmed",27,4.5)
+    println(std2.speak())
 }
 
 
@@ -59,8 +37,8 @@ fun main() {
 
 
 // Q2 = is there any Race Conditions in the code ?
-// yepp Weapon
+// no because the code running in one thread
 
 // Q3 = what's the best way to solve the compiling error in the code using scopeFunction?
-//    A.3.2 : use a scope function like also
-//    A.3.2: chang val to var xD
+//    A.3.2 : use a scope function like also , let
+//    A.3.2: chang val to var //
