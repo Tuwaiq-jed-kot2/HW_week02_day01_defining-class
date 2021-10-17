@@ -29,10 +29,10 @@ The Kotlin assignment has one component:
 
 ### Q1 = what dose Race Conditions mean
 ###
-###
+###type of concurrency bug that occurs when two or more threads access shared data and try to change it at the same time
 ###
 ### Q2 = is there any Race Conditions in the code
-###
+###yes
 ###
 ###
 ### Q3 = what's the best way to solve the compiling error in the code using scopeFunction
