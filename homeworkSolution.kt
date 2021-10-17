@@ -1,13 +1,13 @@
 fun main() {
     print("Part I - defining a class")
 
-    println("Plesae enter name student ")
+    println("Plesae enter name student")
     var name: String? = readLine()!!
 
-    println("Plesae enter age student ")
+    println("Plesae enter age student")
     var age: Int = readLine()!!.toInt()
 
-    println("Plesae enter GPA student ")
+    println("Plesae enter GPA student")
     var GPA: Double = readLine()!!.toDouble()
 
 //call fun to speak
