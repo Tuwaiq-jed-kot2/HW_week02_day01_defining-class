@@ -28,14 +28,17 @@ The Kotlin assignment has one component:
 > ##### }
 
 ### Q1 = what dose Race Conditions mean
-###
-###
+###Race condition is a situation when multiple threads race to modify on the
+### shard variable or recourse in sequence dependent on situation 
 ###
 ### Q2 = is there any Race Conditions in the code
-###
-###
-###
+### yes, it in the function printWeaponName() the var weapon is mutable variable 
+### could be change in another thread while it in if condition
+### The mutable variable weapon might be reassigned after the null check and hold a null value when printWeapanName() is executed;
 ### Q3 = what's the best way to solve the compiling error in the code using scopeFunction
-###
-###
-###
+### using let function scope like
+### fun printWeaponName() {
+### weapon?.let { println(weapon.name) }
+### }
+
+
