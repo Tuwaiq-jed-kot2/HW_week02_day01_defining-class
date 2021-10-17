@@ -1,30 +1,33 @@
 // Part on3 - defining a class ( writing code "required"). //
 //  write a kotlin program with student class that has three proprty "name" and "age" and "GPA" //
 //  and give the student abilty to (speake hint:use print ) and the abilty to add two numbers //
-fun main() {
-    class stuDent(name: String = "Rakan") {
-        var name = name
-            set(value) {
-                field = value
-            }
 
-        var age = 25
-            set(value) {
-                field = value
-            }
-        var gpa = 3.57
-            set(value) {
-                field = value
-            }
-
-        fun speak(): String {
-            return "Hi my name is $name"
+class stuDent(name: String = "Rakan") {
+    var name = name
+        set(value) {
+            field = value
         }
 
+    var age = 25
+        set(value) {
+            field = value
+        }
+    var gpa = 3.57
+        set(value) {
+            field = value
+        }
 
-        override fun toString(): String = "Hi my name is $name, i'm $age years old, my GPA is $gpa"
-
+    fun speak(): String {
+        return "Hi my name is $name"
     }
+
+
+    override fun toString(): String = "Hi my name is $name, i'm $age years old, my GPA is $gpa"
+
+}
+
+fun main() {
+
 
     val student = stuDent()
     println(student.speak())
