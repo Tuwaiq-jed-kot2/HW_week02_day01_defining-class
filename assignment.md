@@ -28,14 +28,15 @@ The Kotlin assignment has one component:
 > ##### }
 
 ### Q1 = what dose Race Conditions mean
-###
-###
-###
+
+>--when two or more threads access shared data and try to change it at the same time.--<
+
+
 ### Q2 = is there any Race Conditions in the code
-###
-###
-###
+
+>-- YES that occurs in 'Weapon' because 'Weapon' is a mutable property that could have been changed by this time--<
+
+
 ### Q3 = what's the best way to solve the compiling error in the code using scopeFunction
-###
-###
-###
+
+>--using RUN Function
