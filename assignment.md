@@ -12,7 +12,7 @@ The Kotlin assignment has one component:
 ### ` and give the student  abilty to (speake hint:use print ) and the abilty to add two numbers `
 fun main() {
 var s1 = Student("Asma", 24 , 3.5)
-s1.printInfo()
+s1.speak()
 s1.adding(3,5)
 
 
@@ -28,8 +28,8 @@ s1.adding(3,5)
         fun adding(num1: Int, num2: Int){
             println(num1 + num2)}
 
-        fun printInfo() {
-            println("name=$studenName \n age=$ageStudent\n GPA = $studenName")
+        fun speak() {
+            println("name=$studenName \n age=$ageStudent\n GPA = $studenName , is speking")
         }
 
 

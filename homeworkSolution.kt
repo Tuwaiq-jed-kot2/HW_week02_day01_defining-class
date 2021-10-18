@@ -24,7 +24,7 @@ class Student( name:String, age : Int ,GPA:Double) {
         println(num1 + num2)}
 
     fun speak() {
-        println("name=$studenName \n age=$ageStudent\n GPA = $studenName")
+        println("name=$studenName \n age=$ageStudent\n GPA = $studenName , is speking")
     }
 
 
