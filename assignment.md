@@ -28,14 +28,35 @@ The Kotlin assignment has one component:
 > ##### }
 
 ### Q1 = what dose Race Conditions mean
-###
-###
-###
+
+### A race condition occurs when two or more threads can access shared data ,
+### and they try to change it at the same time.
+### so when a class property is both nullable and mutable,
+###we must ensure that it is non-null before referencing it.
+
 ### Q2 = is there any Race Conditions in the code
-###
-###
-###
+
+### yes there is , even though the compiler sees that weapon is checked for a null value,
+### there is still a possibility of the Player’s weapon property being replaced with a null
+### value between the time that check passed and the time the name of the weapon is printed.
+
 ### Q3 = what's the best way to solve the compiling error in the code using scopeFunction
+
+### To use scopeFunction like also to guard against null. see answer down
 ###
 ###
-###
+
+class Weapon(val name: String)
+
+class Player {
+var weapon: Weapon? = Weapon("Ebony Kris")
+    fun printWeaponName() {
+        weapon?.also {
+        println(it.name)
+        }
+    }
+}
+
+fun main() {
+Player().printWeaponName()
+}
