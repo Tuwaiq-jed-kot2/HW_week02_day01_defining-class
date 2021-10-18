@@ -28,14 +28,14 @@ The Kotlin assignment has one component:
 > ##### }
 
 ### Q1 = what dose Race Conditions mean
-###
+###"A race condition occurs when some other part of your program simultaneously modifies the state of your code in a manner that leads to unpredictable results."
 ###
 ###
 ### Q2 = is there any Race Conditions in the code
-###
+###yes, because in the example they use mutable (var) and nullable (Weapon?)
 ###
 ###
 ### Q3 = what's the best way to solve the compiling error in the code using scopeFunction
-###
-###
+###I prefer to use (let) because let used in nullable object to avoid null.
+###and we can use (also,run,apply) but they aren't best practice. 
 ###
