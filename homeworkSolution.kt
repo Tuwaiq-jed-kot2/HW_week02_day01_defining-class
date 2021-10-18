@@ -1,5 +1,6 @@
 Answer Q1
 
+
 fun main() {
 
 
@@ -15,6 +16,17 @@ fun main() {
 
     class Student(val Name: String, val Age: Int, val GPA: Double) {
 
+
+
+
+        fun speakStu (name: String?,age: Int?,GPA: Double?){
+            println("Hi my name is $name, \n I'm $age years old, \n  my GPA : $GPA")
+        }
+
+        fun add (num1: Int?, num2 :Int?):Int?{
+            print("the sum of $num1 , and $num2 is = ")
+            return num2?.let { num1?.plus(it) }
+        }
 
     }
 }
