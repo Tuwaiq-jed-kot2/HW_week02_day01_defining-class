@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a0c2139-750f-4421-95d1-9b782720ad90" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/assignment.md" beforeDir="false" afterPath="$PROJECT_DIR$/assignment.md" afterDir="false" />
+    <list default="true" id="1a0c2139-750f-4421-95d1-9b782720ad90" name="Changes" comment="thank you">
       <change beforePath="$PROJECT_DIR$/homeworkSolution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/homeworkSolution.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,28 @@
       <option name="presentableId" value="Default" />
       <updated>1634485109128</updated>
     </task>
+    <task id="LOCAL؜٠٠٠٠١" summary="thank you">
+      <created>1634534552845</created>
+      <option name="number" value="LOCAL؜٠٠٠٠١" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠١" />
+      <updated>1634534552845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="thank you" />
+    <option name="LAST_COMMIT_MESSAGE" value="thank you" />
   </component>
 </project>
